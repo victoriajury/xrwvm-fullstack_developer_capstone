@@ -1,0 +1,9 @@
+
+services:
+  # sentiment service
+  senti_analyzer:
+    container_name: senti_analyzer
+    image: senti_analyzer:latest
+    ports:
+      - 5000:5000
+    # restart: always
